@@ -1,6 +1,6 @@
 # diamorph-prediction
 
-[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/diamorph-prediction/test)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/diamorph-prediction/job/main/)
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/diamorph-prediction/test)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/diamorph-prediction/job/test/)
 
 An application to detect and predict diatoms on microscopic images.
 
