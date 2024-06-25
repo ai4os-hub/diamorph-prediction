@@ -1,0 +1,33 @@
+# .sqa/config.yml - jenkins-pipeline-library configuration file
+sqa_criteria:
+  qc_style:
+    repos:
+      diamorph-prediction:
+        container: testing
+        tox:
+          tox_file: tox.ini
+          testenv:
+            - qc.sty
+  qc_coverage:
+    repos:
+      diamorph-prediction:
+        container: testing
+        tox:
+          tox_file: tox.ini
+          testenv:
+            - qc.cov
+  qc_security:
+    repos:
+      diamorph-prediction:
+        container: testing
+        tox:
+          tox_file: tox.ini
+          testenv:
+            - qc.sec
+
+environment:
+  GIT_COMMITTER_NAME: "Elnaz Azmi, Martin Laviale"
+  GIT_COMMITTER_EMAIL: "elnaz.azmi@kit.edu, martin.laviale@univ-lorraine.fr"
+  LANG: C.UTF-8
+
+timeout: 600

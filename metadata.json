@@ -1,0 +1,37 @@
+{
+    "title": "diamorph",
+    "summary": "An application to detect and predict diatoms on microscopic images.",
+    "description": [
+        "diamorph is an application using the DEEPaaS API.\n",
+        "An application to detect and predict diatoms on microscopic images."
+    ],
+    "keywords": [
+        "docker",
+        "api-v2"
+    ],
+    "license": "AGPL-3.0-only",
+    "date_creation": "2024-06-25",
+    "sources": {
+        "dockerfile_repo": "https://github.com/ai4os-hub/diamorph-prediction",
+        "docker_registry_repo": "ai4oshub/diamorph-prediction",
+        "code": "https://github.com/ai4os-hub/diamorph-prediction",
+        "ai4_template": "ai4-template-adv/2.0.1"
+    },
+    "continuous_integration": {
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/diamorph-prediction/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/diamorph-prediction/job/main/"
+    },
+    "tosca": [
+        {
+            "title": "Mesos (CPU)",
+            "url": "https://raw.githubusercontent.com/indigo-dc/tosca-templates/master/deep-oc/deep-oc-marathon-webdav.yml",
+            "inputs": [
+                "rclone_conf",
+                "rclone_url",
+                "rclone_vendor",
+                "rclone_user",
+                "rclone_pass"
+            ]
+        }
+    ]
+}
