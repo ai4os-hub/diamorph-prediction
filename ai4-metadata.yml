@@ -12,9 +12,11 @@ links:
   ai4_template: ai4-template-adv/2.0.1
 tags:
   - deep learning
+  - object detection
 tasks:
   - Computer Vision
-categories:
+categories:  
+  - AI4 pre trained
   - AI4 inference
 libraries:
   - PyTorch
