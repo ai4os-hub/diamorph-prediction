@@ -1,0 +1,25 @@
+metadata_version: 2.0.0
+title: diamorph
+summary: An application to detect and predict diatoms on microscopic images.
+description: |-
+  `diamorph` is an application using the DEEPaaS API. An application to detect and predict diatoms on microscopic images.
+dates:
+  created: '2024-06-25'
+  updated: '2024-08-12'
+links:
+  source_code: https://github.com/ai4os-hub/diamorph-prediction
+  docker_image: ai4oshub/diamorph-prediction
+  ai4_template: ai4-template-adv/2.0.1
+tags:
+  - deep learning
+  - object detection
+  - vo.imagine-ai.eu
+tasks:
+  - Computer Vision
+categories:  
+  - AI4 pre trained
+  - AI4 inference
+libraries:
+  - PyTorch
+data-type:
+  - Image
